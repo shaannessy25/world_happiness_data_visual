@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World Happiness</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Visualization</h1>
+        <p>by: Shaan Hurley</p>
+    </div>
+    <div class="details container2">
+        <h3>Details</h3>
+        <p>Study: World Happiness</p>
+        <p>Year: 2019</p>
+        <p class="countries"></p>
+    </div>
+
+    <div>
+        <h3>Gdp Per Capita</h3>
+        <svg id='gdp' height='400px'></svg>
+    </div>
+
+    <div>
+        <h3>Social Support</h3>
+        <svg id='social' height='200px' width='350px'></svg>
+    </div>
+
+    <div>
+        <h3>Healthy Life Expectancy</h3>
+        <svg id="life" height='300px' width='550px'></svg>
+    </div>
+
+    <div>
+        <h3>Generosity</h3>
+        <svg id="generous" height='800px' width='800px'></svg>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
